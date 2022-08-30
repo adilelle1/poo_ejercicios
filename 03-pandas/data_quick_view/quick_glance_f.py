@@ -2,6 +2,8 @@ from tabulate import tabulate
 
 
 def file_quick_glance(data):
+    print(f'SHAPE:\n\n{data.shape}')
+    print(f'------------------\n')
     print(f'COLUMNS:\n\n{data.columns}')
     print(f'------------------\n')
     print(f'COLUMNS DATA TYPE:\n\n{data.dtypes}')
