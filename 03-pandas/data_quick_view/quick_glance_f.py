@@ -8,7 +8,7 @@ def file_quick_glance(data):
     print(f'------------------\n')
     print(f'COLUMNS DATA TYPE:\n\n{data.dtypes}')
     print(f'------------------\n')
-    print(f'DESCRIBE:\n\n{data.describe()}')
+    print(f'DESCRIBE:\n\n{data.describe().round(2)}')
     print(f'------------------\n')
     print(f'COUNT:\n\n{data.count()}')
     print(f'------------------\n')
